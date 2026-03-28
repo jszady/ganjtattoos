@@ -31,7 +31,8 @@ export function Hero() {
 
             <h1 className="mt-4 font-display text-white">
               <span className="block text-balance text-6xl font-semibold italic leading-[0.96] tracking-[-0.02em] sm:text-7xl lg:text-[4.85rem] lg:leading-[0.98]">
-                Custom Ink.
+                <span className="text-[#C6A96B]">Custom</span>{" "}
+                <span className="text-[#C6A96B]">Ink.</span>
               </span>
               <span className="mt-1 block text-balance text-6xl font-semibold italic leading-[0.96] tracking-[-0.02em] sm:text-7xl lg:text-[4.85rem] lg:leading-[0.98]">
                 Personal
@@ -51,13 +52,13 @@ export function Hero() {
             <div className="mt-5 flex flex-wrap items-center gap-3">
               <Link
                 href="#book"
-                className="inline-flex items-center justify-center border border-white/[0.11] bg-white/[0.04] px-5 py-2.5 text-[10px] font-semibold uppercase tracking-[0.26em] text-white/78 shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] transition hover:border-white/18 hover:bg-white/[0.06] hover:text-white"
+                className="inline-flex items-center justify-center border border-white/[0.11] bg-white/[0.04] px-5 py-2.5 text-[10px] font-semibold uppercase tracking-[0.26em] text-white/78 shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] transition-all duration-300 ease-in-out hover:border-[#C6A96B] hover:bg-[rgba(198,169,107,0.08)] hover:text-[#C6A96B] hover:tracking-[0.29em]"
               >
                 Book Appointment
               </Link>
               <Link
                 href="#gallery"
-                className="inline-flex items-center justify-center border border-white/[0.07] bg-transparent px-5 py-2.5 text-[10px] font-semibold uppercase tracking-[0.26em] text-white/48 transition hover:border-white/14 hover:text-white/72"
+                className="inline-flex items-center justify-center border border-white/[0.07] bg-transparent px-5 py-2.5 text-[10px] font-semibold uppercase tracking-[0.26em] text-white/48 transition-all duration-300 ease-in-out hover:border-[#C6A96B] hover:bg-[rgba(198,169,107,0.05)] hover:text-[#C6A96B] hover:tracking-[0.29em]"
               >
                 View Work
               </Link>
